@@ -6,7 +6,7 @@
 <p align="center">
   PayPark; <b>paylaşım ekonomisi</b> yaklaşımıyla kullanıcıların yakındaki otoparkları harita üzerinden keşfedip <b>rezervasyon oluşturabildiği</b>, otopark sahiplerinin ise alanlarını sisteme ekleyip <b>yönetebildiği</b> bir mobil uygulamadır.
 </p>
----
+
 
 <p align="center">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-Mobile-blue" />
@@ -19,6 +19,7 @@
 
 
 <h2 align="center">✨ Özellikler</h2>
+
 ---
 
 ### Kullanıcı
