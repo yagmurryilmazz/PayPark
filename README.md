@@ -151,6 +151,8 @@ ADMIN_EMAIL=
 Eğitim amaçlı geliştirilmiştir.
 
 
+---
+
 
 <h2 align="center">🚗 PayPark — Smart Parking Reservation & Management System</h2>
 
