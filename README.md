@@ -6,7 +6,7 @@
 <p align="center">
   PayPark; <b>paylaşım ekonomisi</b> yaklaşımıyla kullanıcıların yakındaki otoparkları harita üzerinden keşfedip <b>rezervasyon oluşturabildiği</b>, otopark sahiplerinin ise alanlarını sisteme ekleyip <b>yönetebildiği</b> bir mobil uygulamadır.
 </p>
-
+---
 
 <p align="center">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-Mobile-blue" />
@@ -16,10 +16,10 @@
   <img alt="Status" src="https://img.shields.io/badge/Status-Prototype-yellow" />
 </p>
 
----
+
 
 <h2 align="center">✨ Özellikler</h2>
-
+---
 
 ### Kullanıcı
 - 🗺️ **Harita & Yakındaki Otoparklar:** konuma göre listeleme, **yarıçap (km) ayarı**
@@ -33,9 +33,10 @@
 - 🏢 **Owner Panel:** otopark ekleme, otoparklarım, rezervasyon yönetimi
 - 📋 **Owner Rezervasyonları:** gelen rezervasyonları görüntüleme (demo/prototype)
   
- ---
+
  
  <h2 align="center">🧰 Kullanılan Teknolojiler</h2>
+---
 
 ### Mobil (Frontend)
 - **Flutter (Dart)**
@@ -56,9 +57,10 @@
 - **PostgreSQL**
 - **Neon (serverless Postgres)** ile hosted kullanım
 - 
----
+
   
  <h2 align="center">📁 Proje Yapısı</h2>
+---
 
 ```txt
 PayPark/
@@ -103,7 +105,7 @@ cp .env.example .env
 npm run dev
 
 ```
----
+
 <h2 align="center">🔐 Ortam Değişkenleri (Backend)</h2>
 ---
 
