@@ -16,7 +16,7 @@
   <img alt="Status" src="https://img.shields.io/badge/Status-Prototype-yellow" />
 </p>
 
-
+---
 
 <h2 align="center">✨ Özellikler</h2>
 
@@ -27,13 +27,13 @@
 - 🅿️ **Park Detayı:** fiyat, konum, açıklama gibi detayları görüntüleme
 - 👤 **Profil:** telefon bilgisi, **şifre değiştirme**, otopark sahibi başvurusu
 - 💬 **Destek:** **SSS (FAQ)** + **Canlı Destek** arayüzü
-- 💳 *(Opsiyonel/Prototype)* **Ödeme Simülasyonu:** demo amaçlı “fake payment” akışı
+- 💳 **Ödeme Simülasyonu:** demo amaçlı “fake payment” akışı
 
 ### Otopark Sahibi
 - 🏢 **Owner Panel:** otopark ekleme, otoparklarım, rezervasyon yönetimi
 - 📋 **Owner Rezervasyonları:** gelen rezervasyonları görüntüleme (demo/prototype)
   
- 
+ ---
  <h2 align="center">🧰 Kullanılan Teknolojiler</h2>
 
 ### Mobil (Frontend)
@@ -53,8 +53,9 @@
 
 ### Veritabanı
 - **PostgreSQL**
-- **Neon (serverless Postgres)** ile hosted kullanım 
-
+- **Neon (serverless Postgres)** ile hosted kullanım
+- 
+---
   
  <h2 align="center">📁 Proje Yapısı</h2>
 
@@ -65,6 +66,7 @@ PayPark/
 ├── README.md
 └── .gitignore
 ```
+---
 
 <h2 align="center">⚙️ Kurulum</h2>
 
@@ -79,8 +81,9 @@ PayPark/
 git clone https://github.com/yagmurryilmazz/PayPark.git
 cd PayPark
 makefile
-::contentReference[oaicite:0]{index=0}
+
 ```
+---
 
 <h2 align="center">▶️ Çalıştırma</h2>
 
@@ -99,6 +102,7 @@ cp .env.example .env
 npm run dev
 
 ```
+---
 <h2 align="center">🔐 Ortam Değişkenleri (Backend)</h2>
 
 `backend/.env` dosyası oluşturup aşağıdaki değişkenleri doldurun:
@@ -110,33 +114,39 @@ JWT_SECRET=
 ADMIN_EMAIL=
 
 ```
+---
+
 <h2 align="center">🧪 Kullanım Senaryosu (Kısa)</h2>
 
 1) Kullanıcı haritada konumunu görür, yarıçapı (km) ayarlar  
 2) Yakındaki otoparkları listeler ve park detayına gider  
 3) Rezervasyon oluşturur, “Rezervasyonlarım” ekranında takip eder  
-4) Otopark sahibi panelinden otopark ekler ve rezervasyonları görüntüler  
+4) Otopark sahibi panelinden otopark ekler ve rezervasyonları görüntüler
+   
+---
 
 <h2 align="center">✅ Güvenlik Notları</h2>
 
 - `.env` ve tüm secret’lar **.gitignore** ile dışarıda tutulur.
 - Daha önce yanlışlıkla `.env` pushlandıysa: **JWT_SECRET** ve **DATABASE_URL** mutlaka rotate edilmelidir.
 
+---
+
 <h2 align="center">👥 Ekip</h2>
 
 - Yağmur Burçin Yılmaz  
 - Berna Tütüncü  
 
+---
 
 <h2 align="center">📄 Lisans</h2>
 
 Eğitim amaçlı geliştirilmiştir.
 
 
+---
 
-
-
- hiçb<h2 align="center">🚗 PayPark — Smart Parking Reservation & Management System</h2>
+<h2 align="center">🚗 PayPark — Smart Parking Reservation & Management System</h2>
 
 <p align="center">
   PayPark is a mobile application built with a <b>sharing economy</b> approach, where users can discover nearby parking lots on a map and <b>create reservations</b>, while parking owners can add their spaces to the system and <b>manage</b> them.
@@ -150,6 +160,8 @@ Eğitim amaçlı geliştirilmiştir.
   <img alt="Status" src="https://img.shields.io/badge/Status-Prototype-yellow" />
 </p>
 
+---
+
 <h2 align="center">✨ Features</h2>
 
 ### User
@@ -158,11 +170,13 @@ Eğitim amaçlı geliştirilmiştir.
 - 🅿️ <b>Park Details:</b> view price, location, description, and other details
 - 👤 <b>Profile:</b> phone info, <b>change password</b>, parking owner application
 - 💬 <b>Support:</b> <b>FAQ</b> + <b>Live Support</b> UI
-- 💳 <i>(Optional/Prototype)</i> <b>Payment Simulation:</b> demo “fake payment” flow
+- 💳 <b>Payment Simulation:</b> demo “fake payment” flow
 
 ### Parking Owner
 - 🏢 <b>Owner Panel:</b> add parking lot, my parking lots, reservation management
 - 📋 <b>Owner Reservations:</b> view incoming reservations (demo/prototype)
+
+---
 
 <h2 align="center">🧰 Technologies Used</h2>
 
@@ -185,6 +199,8 @@ Eğitim amaçlı geliştirilmiştir.
 - <b>PostgreSQL</b>
 - Hosted usage with <b>Neon (serverless Postgres)</b>
 
+---
+
 <h2 align="center">📁 Project Structure</h2>
 
 ```txt
@@ -194,6 +210,8 @@ PayPark/
 ├── README.md
 └── .gitignore
 ```
+
+---
 
 <h2 align="center">⚙️ Setup</h2>
 
@@ -213,6 +231,7 @@ git clone https://github.com/yagmurryilmazz/PayPark.git
 cd PayPark
 makefile
 ```
+---
 
 <h2 align="center">▶️ Run</h2>
 
@@ -230,6 +249,7 @@ npm install
 cp .env.example .env
 npm run dev
 ```
+---
 
 <h2 align="center">🔐 Environment Variables (Backend)</h2>
 Create backend/.env and fill in the variables below:
@@ -239,6 +259,7 @@ DATABASE_URL=
 JWT_SECRET=
 ADMIN_EMAIL=
 ```
+---
 
 <h2 align="center">🧪 Usage Scenario (Brief)</h2>
 
@@ -250,17 +271,23 @@ ADMIN_EMAIL=
 
 4.The parking owner adds a parking lot via the owner panel and views reservations
 
+---
+
 <h2 align="center">✅ Security Notes</h2>
 
 - .env and all secrets are kept out of version control via <b>.gitignore</b>.
 
 - If .env was accidentally pushed before, make sure to rotate <b>JWT_SECRET</b> and <b>DATABASE_URL</b>.
 
+---
+
 <h2 align="center">👥 Team</h2>
 
 -Yağmur Burçin Yılmaz
 
 -Berna Tütüncü
+
+---
 
 <h2 align="center">📄 License</h2>
 Developed for educational purposes.
