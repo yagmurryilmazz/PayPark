@@ -34,6 +34,7 @@
 - 📋 **Owner Rezervasyonları:** gelen rezervasyonları görüntüleme (demo/prototype)
   
  ---
+ 
  <h2 align="center">🧰 Kullanılan Teknolojiler</h2>
 
 ### Mobil (Frontend)
@@ -66,9 +67,9 @@ PayPark/
 ├── README.md
 └── .gitignore
 ```
----
 
 <h2 align="center">⚙️ Kurulum</h2>
+---
 
 ### Ön Koşullar
 - Flutter SDK (stable)
@@ -83,9 +84,9 @@ cd PayPark
 makefile
 
 ```
----
 
 <h2 align="center">▶️ Çalıştırma</h2>
+---
 
 ### Frontend (Flutter)
 
@@ -104,6 +105,7 @@ npm run dev
 ```
 ---
 <h2 align="center">🔐 Ortam Değişkenleri (Backend)</h2>
+---
 
 `backend/.env` dosyası oluşturup aşağıdaki değişkenleri doldurun:
 
@@ -114,39 +116,41 @@ JWT_SECRET=
 ADMIN_EMAIL=
 
 ```
----
 
 <h2 align="center">🧪 Kullanım Senaryosu (Kısa)</h2>
+---
 
 1) Kullanıcı haritada konumunu görür, yarıçapı (km) ayarlar  
 2) Yakındaki otoparkları listeler ve park detayına gider  
 3) Rezervasyon oluşturur, “Rezervasyonlarım” ekranında takip eder  
 4) Otopark sahibi panelinden otopark ekler ve rezervasyonları görüntüler
    
----
 
 <h2 align="center">✅ Güvenlik Notları</h2>
+---
 
 - `.env` ve tüm secret’lar **.gitignore** ile dışarıda tutulur.
 - Daha önce yanlışlıkla `.env` pushlandıysa: **JWT_SECRET** ve **DATABASE_URL** mutlaka rotate edilmelidir.
 
----
+
 
 <h2 align="center">👥 Ekip</h2>
+---
 
 - Yağmur Burçin Yılmaz  
 - Berna Tütüncü  
 
----
+
 
 <h2 align="center">📄 Lisans</h2>
+---
 
 Eğitim amaçlı geliştirilmiştir.
 
 
----
 
 <h2 align="center">🚗 PayPark — Smart Parking Reservation & Management System</h2>
+---
 
 <p align="center">
   PayPark is a mobile application built with a <b>sharing economy</b> approach, where users can discover nearby parking lots on a map and <b>create reservations</b>, while parking owners can add their spaces to the system and <b>manage</b> them.
@@ -160,9 +164,9 @@ Eğitim amaçlı geliştirilmiştir.
   <img alt="Status" src="https://img.shields.io/badge/Status-Prototype-yellow" />
 </p>
 
----
 
 <h2 align="center">✨ Features</h2>
+---
 
 ### User
 - 🗺️ <b>Map & Nearby Parking Lots:</b> location-based listing, <b>radius (km) adjustment</b>
@@ -176,9 +180,10 @@ Eğitim amaçlı geliştirilmiştir.
 - 🏢 <b>Owner Panel:</b> add parking lot, my parking lots, reservation management
 - 📋 <b>Owner Reservations:</b> view incoming reservations (demo/prototype)
 
----
+
 
 <h2 align="center">🧰 Technologies Used</h2>
+---
 
 ### Mobile (Frontend)
 - <b>Flutter (Dart)</b>
@@ -199,9 +204,9 @@ Eğitim amaçlı geliştirilmiştir.
 - <b>PostgreSQL</b>
 - Hosted usage with <b>Neon (serverless Postgres)</b>
 
----
 
 <h2 align="center">📁 Project Structure</h2>
+---
 
 ```txt
 PayPark/
@@ -211,9 +216,10 @@ PayPark/
 └── .gitignore
 ```
 
----
+
 
 <h2 align="center">⚙️ Setup</h2>
+---
 
 ### Prerequisites
 
@@ -231,9 +237,9 @@ git clone https://github.com/yagmurryilmazz/PayPark.git
 cd PayPark
 makefile
 ```
----
 
 <h2 align="center">▶️ Run</h2>
+---
 
 ### Frontend (Flutter)
 ```bash
@@ -249,9 +255,11 @@ npm install
 cp .env.example .env
 npm run dev
 ```
----
+
 
 <h2 align="center">🔐 Environment Variables (Backend)</h2>
+---
+
 Create backend/.env and fill in the variables below:
 ```bash
 PORT=
@@ -259,9 +267,9 @@ DATABASE_URL=
 JWT_SECRET=
 ADMIN_EMAIL=
 ```
----
 
 <h2 align="center">🧪 Usage Scenario (Brief)</h2>
+---
 
 1.The user views their location on the map and adjusts the radius (km)
 
@@ -271,23 +279,24 @@ ADMIN_EMAIL=
 
 4.The parking owner adds a parking lot via the owner panel and views reservations
 
----
 
 <h2 align="center">✅ Security Notes</h2>
+---
 
 - .env and all secrets are kept out of version control via <b>.gitignore</b>.
 
 - If .env was accidentally pushed before, make sure to rotate <b>JWT_SECRET</b> and <b>DATABASE_URL</b>.
 
----
 
 <h2 align="center">👥 Team</h2>
+---
 
 -Yağmur Burçin Yılmaz
 
 -Berna Tütüncü
 
----
+
 
 <h2 align="center">📄 License</h2>
+---
 Developed for educational purposes.
