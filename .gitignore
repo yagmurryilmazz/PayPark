@@ -1,0 +1,14 @@
+# Environment files
+.env
+env.express
+env.*
+
+# Editor
+.vscode/
+
+# Node
+node_modules/
+
+# Flutter / Dart
+.dart_tool/
+build/

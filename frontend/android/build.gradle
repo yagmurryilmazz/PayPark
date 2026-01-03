@@ -1,0 +1,31 @@
+// Fallback: bazı plugin projeleri (ör. geolocator_android) flutter.* değerlerini göremediğinde
+// bu blok sayesinde compileSdk/minSdk/targetSdk/ndkVersion kesin tanımlı olur.
+ext.flutter = [
+        compileSdkVersion: 34,
+        minSdkVersion    : 21,
+        targetSdkVersion : 34,
+        ndkVersion       : "26.1.10909125",
+        versionCode      : 1,
+        versionName      : "1.0"
+]
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
