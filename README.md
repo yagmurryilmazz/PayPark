@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  PayPark; **paylaşım ekonomisi** yaklaşımıyla kullanıcıların yakındaki otoparkları harita üzerinden keşfedip **rezervasyon oluşturabildiği**, otopark sahiplerinin ise alanlarını sisteme ekleyip **yönetebildiği** bir mobil uygulamadır.
+  PayPark; <b>paylaşım ekonomisi</b> yaklaşımıyla kullanıcıların yakındaki otoparkları harita üzerinden keşfedip <b>rezervasyon oluşturabildiği</b>, otopark sahiplerinin ise alanlarını sisteme ekleyip <b>yönetebildiği</b> bir mobil uygulamadır.
 </p>
 
 
